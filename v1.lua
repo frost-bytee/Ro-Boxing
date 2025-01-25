@@ -1,5 +1,4 @@
--- made by fired#4778
--- handle errors
+-- made by frostbyte
 local start = tick()
 local unloaded = false
 local client = game:GetService('Players').LocalPlayer
@@ -404,4 +403,6 @@ while true do
     if unloaded then
         return
     end
+    print("made by frostbyte")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end
